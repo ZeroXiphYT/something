@@ -1,12 +1,21 @@
+@font-face{
+ src: url(TheGirlNextDoor-Regular.ttf);
+  font-family: Tgnd
+}
 body{
   height: 100vh;
 }
+
+p{
+font-family: Tgnd;
+  font-size: 25px;
+}  
 button{
   box-sizing: border-box;
   border: none;
   background-color: black;
   color: cyan;
-  height: 100px;
-  width: 100px;
+  height: 300px;
+  width: 300px;
   font-size: 30px;
 }  
